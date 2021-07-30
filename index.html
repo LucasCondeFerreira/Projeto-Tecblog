@@ -1,63 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecBlog - O seu Blog de Técnologia</title>
-    <link rel="stylesheet" href="assets/style.css">
+	<title>TecBlog - O seu Blog de tecnologia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-    
-    <div id="area-cabecalho">
 
-        <div id="area-logo">
-            <h1>Tec<span class="branco">Blog</span></h1>
-        </div>
+	<div id="area-cabecalho">
+		
+		<div id="area-logo">
+			<h1>Tec<span class="branco">Blog</span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="jogos.html">Jogos</a>
+			<a href="celulares.html">Celulares</a>
+			<a href="informatica.html">Informática</a>
+			<a href="eletronicos.html">Eletrônicos</a>
+		</div>
 
-        <div id="area-menu">
+	</div>
 
-            <a href="index.html">Home</a>
-            <a href="jogos.html">Jogos</a>
-            <a href="celulares.html">Celulares</a>
-            <a href="informatica.html">Informática</a>
-            <a href="eletronicos">Eletrônicos</a>
+	<div id="area-principal">
 
-        </div>
+		<div id="area-postagens">
+			
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Titulo da postagem 1</h2>
+				<span class="data-postagem">postado 20 março 2022</span>
+				<img width="620px" src="imagens/imagem1.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+				</p>
+				<a href="">Leia mais</a>
+			</div><!--// fechamento postagem -->
 
-    </div>
-    
-    <!-- Conteudo Principal-->
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Titulo da postagem 2</h2>
+				<span class="data-postagem">postado 10 março 2022</span>
+				<img width="620px" src="imagens/imagem2.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+				</p>
+				<a href="">Leia mais</a>
+			</div><!--// fechamento postagem -->
 
-    <div id="area-principal">
+		</div>
+		<div id="area-lateral">
+			
 
-        <!-- Open posts-->
-        <div id="area-postagens">
-            
-            <div class="posts">
-                <h2>Cultura da Paz</h2>
-                <h4>Postado em 02 de junho de 2021</h4>
-                <img src="assets/imagens/imagem1.jpg" alt="Computador macboc sobre uma mesa">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                <a href="">Leia mais</a>
-            </div>
-        
-        </div> 
-        <!-- End posts-->
+			<div class="conteudo-lateral">
+				<h3>Postagens recentes</h3>
+				
+				<div class="postagem-lateral">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="">Leia mais</a>
+				</div>
+
+				<div class="postagem-lateral" style="border-bottom: none;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="">Leia mais</a>
+				</div>
+
+			</div>
+
+			<div class="conteudo-lateral">
+				<h3>Categorias</h3>
+				
+				<a href="">Jogos</a><br>
+				<a href="">Celulares</a><br>
+				<a href="">Informática</a><br>
+				<a href="">Eletrônicos</a><br>
+				<a href="">Jogos</a><br>
+
+			</div>
 
 
-        <!-- Menu lateral -->
+		</div>
 
-        <div id="area-lateral">
-            Blablabla
-        </div>
+		<div id="rodape">
+			Todos os direitos reservados
+		</div>
 
-        <div id="rodape">
-            <p>Todos os direitos resservados</p>
-        </div>
+	</div>
 
-    </div>
-
-    
 </body>
 </html>
